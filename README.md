@@ -1,5 +1,9 @@
 # Pat's Analysis Tools
 
+A work in progress...
+
+![](docs/example.png)
+
 ### I am using Arch with Hyprland, all other distros and configurations remain untested.
 
 If you run the tool without `sudo` permissions, it will attempt to elevate itself using <u>Polkit</u>.
