@@ -1,5 +1,4 @@
 import os
-from gui.layout import init_layout
 
 if __name__ == '__main__':
     if os.geteuid() != 0:
@@ -12,4 +11,7 @@ if __name__ == '__main__':
                    f"DISPLAY={os.environ['DISPLAY']}",
                    f"{cwd}/virtualenv/bin/python",
                    os.path.realpath(__file__)])
+        
+    from gui.layout import init_layout
+    
     init_layout()
