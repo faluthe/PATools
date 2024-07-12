@@ -1,0 +1,5 @@
+.vscode/
+virtualenv/
+__pycache__/
+**/__pycache__/
+tools/bin/
